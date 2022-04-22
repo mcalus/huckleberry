@@ -10,3 +10,42 @@ body {
 }
 
 /* Add styles here! */
+.max-width-wrapper {
+  width: 100%;
+}
+
+.max-width-wrapper > div {
+  margin: auto;
+  max-width: 700px;
+}
+
+.intro-chunk {
+  padding: 20px;
+}
+
+.intro-chunk > * {
+  max-width: 350px;
+}
+
+strong {
+  color: green;
+}
+
+main {
+  background-color: silver;
+  border-top: 5px gray solid;
+  padding: 50px 0;
+}
+
+.card {
+  padding: 10px 20px;
+  background-color: white;
+  border-bottom: 5px gray solid;
+}
+
+.indented-heading {
+  margin-left: -30px;
+  padding: 20px 30px;
+  background-color: gold;
+  border-bottom: 5px goldenrod solid;
+}
